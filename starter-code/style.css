@@ -61,3 +61,144 @@ nav {
   font-size: 1.5rem;
   border: 2px solid white;
 }
+
+/******************second section**********************/
+
+#second-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 10rem;
+  background: rgb(145, 53, 53);
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 3rem;
+  width: 35rem;
+}
+
+.icon-img {
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.icon-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.icon-paragraph {
+  text-align: center;
+  font-size: 1.4rem;
+  color: white;
+}
+
+/********************third section**************************/
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 15rem;
+}
+
+.four-elements {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-title {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgb(179, 179, 179);
+  margin-bottom: 4rem;
+}
+
+.container-title h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.container-title h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(128, 128, 128);
+}
+
+.four-elements-img {
+  height: 15rem;
+  margin-bottom: 1rem;
+}
+
+.element {
+  width: 22.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-paragraph {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.four-elements-image {
+  height: 9.6rem;
+  margin-bottom: 1rem;
+}
+
+.four-images-text h5{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.four-images-text p{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/********************fourth section**************************/
+
+#fourth-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 15rem;
+  background: rgb(77, 77, 77);
+}
+
+.fourth-section-container {
+  width: 23rem;
+}
+
+.fourth-section-container h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+  color: white
+}
+
+.fourth-section-container p {
+  font-size: 1.2rem;
+  color: white
+}
+
+.fourth-section-container ul li {
+  font-size: 1.2rem;
+  border-bottom: 2px dotted white;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+footer {
+  padding: 2rem 15rem;
+  background: rgb(49, 49, 49);
+}
+
+footer h6 {
+  font-size: 1.2rem;
+  color: white;
+}
