@@ -1,0 +1,63 @@
+/***************whole document*****************/
+
+html {
+  font-size: 10px;
+  font-family: Geneva, Verdana, sans-serif;
+}
+
+/*****************navigation******************/
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+#nav-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#ul-navigation-container ul {
+  display: flex;
+}
+
+#ul-navigation-container li {
+  margin-left: 3rem;
+  list-style-type: none;
+  font-size: 1.6rem;
+}
+
+#home-li {
+  color: red;
+}
+
+/******************bootstrap carousel**************************/
+
+.carousel-caption {
+  margin-bottom: 30vh;
+}
+
+.carousel-caption h5 {
+  font-size: 5rem;
+  margin-bottom: 2vh;
+}
+
+.carousel-caption p {
+  font-size: 2.5rem;
+}
+
+.carousel-item img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#read-more {
+  background: transparent;
+  width: 9rem;
+  margin-left: 32vw;
+  margin-top: 8vh;
+  font-size: 1.5rem;
+  border: 2px solid white;
+}
